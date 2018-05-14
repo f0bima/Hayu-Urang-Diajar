@@ -11,3 +11,4 @@ G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Di
 G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Diajar.xml
 G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Diajar.pdb
 G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Diajar.vbprojResolveAssemblyReference.cache
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu_Urang_Diajar.crudform.resources

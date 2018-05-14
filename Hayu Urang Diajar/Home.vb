@@ -9,4 +9,9 @@
                 userlb.Text = "Admin"
         End Select
     End Sub
+
+    Private Sub Crud_Click(sender As Object, e As EventArgs) Handles crud.Click
+        crudform.Show()
+        Me.Hide()
+    End Sub
 End Class

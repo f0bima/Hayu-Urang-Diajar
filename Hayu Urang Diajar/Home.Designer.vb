@@ -23,23 +23,34 @@ Partial Class Home
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.userlb = New System.Windows.Forms.Label()
+        Me.crud = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'userlb
         '
         Me.userlb.AutoSize = True
         Me.userlb.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.userlb.Location = New System.Drawing.Point(84, 106)
+        Me.userlb.Location = New System.Drawing.Point(154, 9)
         Me.userlb.Name = "userlb"
         Me.userlb.Size = New System.Drawing.Size(120, 39)
         Me.userlb.TabIndex = 0
         Me.userlb.Text = "Label1"
         '
+        'crud
+        '
+        Me.crud.Location = New System.Drawing.Point(149, 101)
+        Me.crud.Name = "crud"
+        Me.crud.Size = New System.Drawing.Size(137, 23)
+        Me.crud.TabIndex = 1
+        Me.crud.Text = "CONTOH CRUD"
+        Me.crud.UseVisualStyleBackColor = True
+        '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.ClientSize = New System.Drawing.Size(436, 160)
+        Me.Controls.Add(Me.crud)
         Me.Controls.Add(Me.userlb)
         Me.Name = "Home"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -50,4 +61,5 @@ Partial Class Home
     End Sub
 
     Friend WithEvents userlb As Label
+    Friend WithEvents crud As Button
 End Class

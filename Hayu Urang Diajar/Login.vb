@@ -5,14 +5,14 @@ Public Class Login
     End Sub
 
     Private Sub OK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OK.Click
-        ceklogin()
+        Ceklogin()
     End Sub
 
     Private Sub Cancel_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cancel.Click
         Me.Close()
     End Sub
 
-    Private Sub ceklogin()
+    Private Sub Ceklogin()
         Dim user() As String = {"Siswa", "Guru", "Admin"}
         Dim login As Boolean
         Dim i As Integer
