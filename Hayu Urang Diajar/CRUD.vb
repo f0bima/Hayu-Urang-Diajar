@@ -11,7 +11,7 @@ Public Class Crudform
 
     Private Sub Tambah_Click(sender As Object, e As EventArgs) Handles Tambah.Click
         Dim CMD As OleDbCommand
-        Call sambungin()
+        Call Sambungin()
         Dim simpan As String = "insert into Admin values ('" & User.Text & "','" & Pass.Text & "')"
         CMD = New OleDbCommand(simpan, Conn)
         CMD.ExecuteNonQuery()
@@ -20,7 +20,7 @@ Public Class Crudform
     End Sub
 
     Private Sub Delete_Click(sender As Object, e As EventArgs) Handles Delete.Click
-        Call sambungin()
+        Call Sambungin()
         Dim CMD As OleDbCommand
         Dim hapus As String = "delete From Admin where UserName='" & User.Text & "'"
         CMD = New OleDbCommand(hapus, Conn)
@@ -30,7 +30,7 @@ Public Class Crudform
     End Sub
 
     Private Sub Edit_Click(sender As Object, e As EventArgs) Handles Edit.Click
-        Call sambungin()
+        Call Sambungin()
         Dim CMD As OleDbCommand
         Dim ubah As String = "Update [Admin] set [Password]='" & Pass.Text & "' where [UserName]='" & User.Text & "'"
         CMD = New OleDbCommand(ubah, Conn)
@@ -40,7 +40,7 @@ Public Class Crudform
     End Sub
 
     Private Sub Tampil()
-        sambungin()
+        Sambungin()
         da = New OleDbDataAdapter("Select * from Admin", Conn)
         ds = New DataSet
         ds.Clear()

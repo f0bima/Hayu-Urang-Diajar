@@ -12,3 +12,14 @@ G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Di
 G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Diajar.pdb
 G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Diajar.vbprojResolveAssemblyReference.cache
 G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu_Urang_Diajar.crudform.resources
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\bin\Debug\Interop.AcroPDFLib.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\bin\Debug\AxInterop.AcroPDFLib.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Interop.AcroPDFLib.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\AxInterop.AcroPDFLib.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu Urang Diajar.vbproj.ResolveComReference.cache
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu_Urang_Diajar.pdf.resources
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\bin\Debug\Interop.AXVLC.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\bin\Debug\AxInterop.AXVLC.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Interop.AXVLC.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\AxInterop.AXVLC.dll
+G:\Hayu Urang Diajar\Hayu Urang Diajar\Hayu Urang Diajar\obj\Debug\Hayu_Urang_Diajar.Video.resources

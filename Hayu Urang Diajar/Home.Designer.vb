@@ -24,6 +24,8 @@ Partial Class Home
     Private Sub InitializeComponent()
         Me.userlb = New System.Windows.Forms.Label()
         Me.crud = New System.Windows.Forms.Button()
+        Me.Contoh_pdf = New System.Windows.Forms.Button()
+        Me.Contoh_video = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'userlb
@@ -38,18 +40,38 @@ Partial Class Home
         '
         'crud
         '
-        Me.crud.Location = New System.Drawing.Point(149, 101)
+        Me.crud.Location = New System.Drawing.Point(142, 80)
         Me.crud.Name = "crud"
         Me.crud.Size = New System.Drawing.Size(137, 23)
         Me.crud.TabIndex = 1
         Me.crud.Text = "CONTOH CRUD"
         Me.crud.UseVisualStyleBackColor = True
         '
+        'Contoh_pdf
+        '
+        Me.Contoh_pdf.Location = New System.Drawing.Point(142, 109)
+        Me.Contoh_pdf.Name = "Contoh_pdf"
+        Me.Contoh_pdf.Size = New System.Drawing.Size(137, 23)
+        Me.Contoh_pdf.TabIndex = 2
+        Me.Contoh_pdf.Text = "CONTOH PDF"
+        Me.Contoh_pdf.UseVisualStyleBackColor = True
+        '
+        'Contoh_video
+        '
+        Me.Contoh_video.Location = New System.Drawing.Point(142, 139)
+        Me.Contoh_video.Name = "Contoh_video"
+        Me.Contoh_video.Size = New System.Drawing.Size(137, 23)
+        Me.Contoh_video.TabIndex = 3
+        Me.Contoh_video.Text = "CONTOH VIDEO"
+        Me.Contoh_video.UseVisualStyleBackColor = True
+        '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(436, 160)
+        Me.ClientSize = New System.Drawing.Size(436, 181)
+        Me.Controls.Add(Me.Contoh_video)
+        Me.Controls.Add(Me.Contoh_pdf)
         Me.Controls.Add(Me.crud)
         Me.Controls.Add(Me.userlb)
         Me.Name = "Home"
@@ -62,4 +84,6 @@ Partial Class Home
 
     Friend WithEvents userlb As Label
     Friend WithEvents crud As Button
+    Friend WithEvents Contoh_pdf As Button
+    Friend WithEvents Contoh_video As Button
 End Class

@@ -18,7 +18,7 @@ Public Class Login
         Dim i As Integer
         i = 0
         login = False
-        Call sambungin()
+        Call Sambungin()
         While (i <= 2 And login = False)
             cmd = New OleDbCommand("select * from " + user(i) + " where UserName='" & Username.Text & "' and Password='" & Password.Text & "'", Conn)
             rd = cmd.ExecuteReader

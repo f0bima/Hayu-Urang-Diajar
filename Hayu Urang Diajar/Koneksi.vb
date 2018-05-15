@@ -7,7 +7,7 @@ Module Koneksi
     Public rd As OleDbDataReader
     Public Str As String
 
-    Public Sub sambungin()
+    Public Sub Sambungin()
         Str = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" & Application.StartupPath & "\HUD.accdb"
         Conn = New OleDbConnection(Str)
         If Conn.State = ConnectionState.Closed Then

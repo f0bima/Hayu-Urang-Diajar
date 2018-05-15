@@ -14,4 +14,14 @@
         crudform.Show()
         Me.Hide()
     End Sub
+
+    Private Sub Contoh_pdf_btn_Click(sender As Object, e As EventArgs) Handles Contoh_pdf.Click
+        pdf.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub Contoh_video_Click(sender As Object, e As EventArgs) Handles Contoh_video.Click
+        Video.Show()
+        Me.Hide()
+    End Sub
 End Class
